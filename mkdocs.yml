@@ -1,10 +1,10 @@
-site_name: Modul 346 - Cloudlösungen konzipieren und realisieren
+site_name: Modul 346 - Cloudlösungen konzipieren und realisieren.
 site_url: "https://oliverlux.github.io/modul346"
 
 nav:
-  - 0. Übersicht: index.md
+  - 0. Übersicht.: index.md
   - 1. Beginn:
-    - Start: 1-10.md
+    - Übersicht Elemente.: 1-10.md
 
 theme:
   name: material
@@ -42,9 +42,9 @@ extra_javascript:
 
 extra_css:
   - stylesheets/extra.css
-copyright: Copyright &copy; 2021 GBSSG Oliver Lux
+copyright: Copyright &copy; 2021 <a href='https://www.gbssg.ch'><span style='font-weight:1000'>gbs</span>sg.ch</a> <span class='green'>|</span> Informatik <span class='green'>|</span> Modul 346
 extra:
   social:
     - icon: material/home
       link: https://www.gbssg.ch
-      name: GBSSG
+      name: gbssg.ch
