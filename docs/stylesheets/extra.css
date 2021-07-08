@@ -4,9 +4,6 @@
   }
   
 
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
   .container {
       position: relative; 
       padding-bottom: 56.25%; 
@@ -93,7 +90,7 @@
   }
 
   .md-header__title .md-ellipsis {
-    background-color: black;
+    background-color: #444444;
     margin: 0;
     padding: 0 10px 0 10px; 
     font-weight: 800;
@@ -101,19 +98,23 @@
    }
 
    .md-header__title .md-ellipsis::after {
+        font-family: Arial, Helvetica, sans-serif;
         font-weight: 900;
         bottom: 0;
         color: #CCCC00;
         content: '.';
         position: absolute;
+        margin-left: 8px;
         transform: translate(-100%, 0);
    }
 
    .md-footer__title .md-ellipsis::after {
+        font-family: Arial, Helvetica, sans-serif;
         bottom: 0;
         color: #CCCC00;
         content: '.';
         position: absolute;
+        margin-left: 8px;
         transform: translate(-100%, 0);
 }
 

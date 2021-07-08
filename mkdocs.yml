@@ -1,10 +1,10 @@
-site_name: Modul 346 - Cloudlösungen konzipieren und realisieren.
+site_name: Modul 346 - Cloudlösungen konzipieren und realisieren
 site_url: "https://oliverlux.github.io/modul346"
 
 nav:
-  - 0. Übersicht.: index.md
+  - 0. Übersicht: index.md
   - 1. Beginn:
-    - Übersicht Elemente.: 1-10.md
+    - Übersicht Elemente: 1-10.md
 
 theme:
   name: material
