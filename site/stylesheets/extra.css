@@ -1,8 +1,9 @@
 :root {
-    --md-primary-fg-color:        #C6D300;
+    --md-primary-fg-color:        #CCCC00;
     --md-accent-fg-color:			#8A9100;
   }
   
+
   .container {
       position: relative; 
       padding-bottom: 56.25%; 
@@ -19,7 +20,7 @@
   }
   
   .abstract .admonition-title{
-      background-color:#C6D300 !important;
+      background-color:#CCCC00 !important;
       color:white;
   }
   .admonition.abstract{
@@ -31,7 +32,7 @@
   }
   
   .md-typeset [type="checkbox"]:checked + .task-list-indicator::before {
-      background-color:#C6D300 !important;
+      background-color:#CCCC00 !important;
   }
   
   img + br + em{
@@ -48,7 +49,7 @@
   }
   h2[id^='auftrag']{
       border:1px solid #cccccc;
-      background-color:#C6D300;
+      background-color:#CCCC00;
       padding:10px;
       color:white;
       border-radius:5px;
@@ -75,11 +76,11 @@
   }
   
   .md-typeset__table th{
-      background-color: #C6D300 !important;
+      background-color: #CCCC00 !important;
   }
   
   .bg-yellow{
-      background-color: rgba(255,255,0,0.5);	
+      background-color: rgba(204,204,0,0.5);	
   }
   .bg-green{
       background-color: rgba(0,255,0,0.5);	
@@ -87,4 +88,37 @@
   .bg-red{
       background-color: rgba(255,0,0,0.5);	
   }
-  
+
+  .md-header__title .md-ellipsis {
+    background-color: #444444;
+    margin: 0;
+    padding: 0 10px 0 10px; 
+    font-weight: 800;
+    transform: rotate(-2deg);
+   }
+
+   .md-header__title .md-ellipsis::after {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        bottom: 0;
+        color: #CCCC00;
+        content: '.';
+        position: absolute;
+        margin-left: 8px;
+        transform: translate(-100%, 0);
+   }
+
+   .md-footer__title .md-ellipsis::after {
+        font-family: Arial, Helvetica, sans-serif;
+        bottom: 0;
+        color: #CCCC00;
+        content: '.';
+        position: absolute;
+        margin-left: 8px;
+        transform: translate(-100%, 0);
+}
+
+   .green {
+     font-size: 1.3em;
+     color:#CCCC00;
+    }
