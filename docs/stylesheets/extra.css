@@ -3,7 +3,6 @@
     --md-accent-fg-color:			#8A9100;
   }
   
-
   .container {
       position: relative; 
       padding-bottom: 56.25%; 
@@ -40,27 +39,19 @@
       color: #939C00;
       
   }
-  pxxx{line-height: 15px;}
+  
+  .md-nav__title .md-nav__button.md-logo img{
+      width: inherit;
+      border: none;
+  }
+  
   img{
       border:1px solid #939C00;
   }
   code{
       border:1px solid #939C00;
   }
-  h2[id^='auftrag']{
-      border:1px solid #cccccc;
-      background-color:#CCCC00;
-      padding:10px;
-      color:white;
-      border-radius:5px;
-  }
-  div.auftrag{
-      border:1px solid #cccccc;
-      background-color:#E6F2B0;
-      padding:10px;
-      color:#555555;
-      border-radius:5px;
-  }
+  
   label.md-nav__link{
       font-weight: bold;
   }
@@ -80,7 +71,7 @@
   }
   
   .bg-yellow{
-      background-color: rgba(204,204,0,0.5);	
+      background-color: rgba(255,255,0,0.5);	
   }
   .bg-green{
       background-color: rgba(0,255,0,0.5);	
@@ -104,7 +95,7 @@
         color: #CCCC00;
         content: '.';
         position: absolute;
-        margin-left: 8px;
+        margin-left: 7px;
         transform: translate(-100%, 0);
    }
 
@@ -114,7 +105,7 @@
         color: #CCCC00;
         content: '.';
         position: absolute;
-        margin-left: 8px;
+        margin-left: 7px;
         transform: translate(-100%, 0);
 }
 
