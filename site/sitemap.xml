@@ -2,12 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://oliverlux.github.io/modul346/</loc>
+<<<<<<< HEAD
          <lastmod>2021-07-07</lastmod>
+=======
+         <lastmod>2021-07-09</lastmod>
+>>>>>>> 6fea45a1ad7d72a4afc9c60699ff444dcaadb48e
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://oliverlux.github.io/modul346/1-10/</loc>
+<<<<<<< HEAD
          <lastmod>2021-07-07</lastmod>
+=======
+         <lastmod>2021-07-09</lastmod>
+>>>>>>> 6fea45a1ad7d72a4afc9c60699ff444dcaadb48e
          <changefreq>daily</changefreq>
     </url>
 </urlset>
